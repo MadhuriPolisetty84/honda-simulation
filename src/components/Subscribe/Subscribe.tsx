@@ -1,11 +1,14 @@
 const Subscribe = () => {
   return (
-    <div className="flex flex-col px-10 py-8 text-sm bg-gray-100 items-center">
+    <div className="flex flex-col px-10 py-8 text-sm bg-gray-120 items-center">
       <div>
-        <h2 className="text-2xl font-bold mb-2"> Stay up-to-date with Honda</h2>
+        <h2 className="text-xl font-bold text-black tracking-wider antialiased mb-2">
+          {" "}
+          Stay up-to-date with Honda
+        </h2>
       </div>
       <div>
-        <p className="text-base text-gray-600 mb-6">
+        <p className="text-base font-normal tracking-normal antialiased text-black mb-6">
           {" "}
           Subscribe now to become a Honda insider.
         </p>
@@ -13,19 +16,19 @@ const Subscribe = () => {
       <div>
         <form className="flex gap-4 items-end">
           <div className="flex flex-col gap-1">
-            <label htmlFor="fullName" className="text-sm">
+            <label htmlFor="fullName" className="text-xs ">
               FULL NAME
             </label>
             <input
               id="fullName"
               type="text"
               placeholder="Full Name"
-              className="px-4 py-4 w-72 bg-white"
+              className="px-4 py-4 w-72 bg-white outline-none"
             />
           </div>
 
           <div className="flex flex-col gap-1">
-            <label htmlFor="email" className="text-sm">
+            <label htmlFor="email" className="text-xs">
               EMAIL ADDRESS<span className="text-red-600">*</span>
             </label>
             <input
@@ -33,13 +36,13 @@ const Subscribe = () => {
               type="email"
               placeholder="Email Address"
               required
-              className=" px-4 py-4 w-72 bg-white"
+              className=" px-4 py-4 w-72 bg-white outline-none"
             />
           </div>
 
           <button
             type="submit"
-            className="bg-red-600 text-white font-bold px-8 py-3 rounded-md"
+            className="bg-red-700 hover:bg-red-800 text-white font-bold px-4 py-7 text-xs font-semibold tracking-wider rounded-md"
           >
             SUBSCRIBE NOW
           </button>
