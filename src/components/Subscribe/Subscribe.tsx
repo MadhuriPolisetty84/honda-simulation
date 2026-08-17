@@ -20,7 +20,7 @@ const Subscribe = () => {
               id="fullName"
               type="text"
               placeholder="Full Name"
-              className="border border-gray-300 px-4 py-3 w-72"
+              className="px-4 py-4 w-72 bg-white"
             />
           </div>
 
@@ -33,13 +33,13 @@ const Subscribe = () => {
               type="email"
               placeholder="Email Address"
               required
-              className="border border-gray-300 px-4 py-3 w-72"
+              className=" px-4 py-4 w-72 bg-white"
             />
           </div>
 
           <button
             type="submit"
-            className="bg-red-600 text-white font-bold px-8 py-3"
+            className="bg-red-600 text-white font-bold px-8 py-3 rounded-md"
           >
             SUBSCRIBE NOW
           </button>
