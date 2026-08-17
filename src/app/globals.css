@@ -40,3 +40,16 @@ body {
     opacity: 1;
   }
 }
+
+@keyframes progressRing {
+  from {
+    stroke-dashoffset: 56.5; /* Full circumference hidden */
+  }
+  to {
+    stroke-dashoffset: 0; /* Fully visible */
+  }
+}
+
+.animate-progress-ring {
+  animation: progressRing 3s linear forwards;
+}

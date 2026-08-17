@@ -65,7 +65,7 @@ const HeroBanner = () => {
                     aims to be a brand in harmony with people worldwide, guided
                     by its unique philosophy.
                   </p>
-                  <button className="bg-red-600 hover:bg-red-700 text-white font-semibold text-xs tracking-wider uppercase px-6 py-3 rounded transition-colors">
+                  <button className="bg-red-600 hover:bg-red-700 text-white text-bold font-bold text-xs tracking-wider uppercase px-6 py-3 rounded transition-colors">
                     LEARN MORE
                   </button>
                 </div>
